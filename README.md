@@ -35,6 +35,8 @@ Dlib has the following prerequisites: Boost, Boost.Python, CMake, XQuartz Window
   
   $ pip install opencv-contrib-python
   
+  $ pip install imutils
+  
   $ pip install numpy
   
   $ pip install scipy
@@ -50,6 +52,8 @@ $ python3
 >>>
 
 ----------------------------------------------------------------------------------------------------------------------------
+
+CODES:
 
 
 
