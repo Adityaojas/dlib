@@ -12,28 +12,39 @@ I usually work with Python3 on my Mac, so, getting forward to installing dlib on
 Dlib has the following prerequisites: Boost, Boost.Python, CMake, XQuartz Windows Manager. These packages can be installed using HomeBrew (preferable) on MacOS.
 
 - Update Brew
-$ brew update
+
+  $ brew update
 
 - Install CMake, Boost, and Boost.Python
-$ brew install cmake
-$ brew install boost
-$ brew install boost-python --with-python3
+  
+  $ brew install cmake
+  
+  $ brew install boost
+  
+  $ brew install boost-python --with-python3
 
 - Download and install XQuartz Window Manager from the link: https://www.xquartz.org/
 
 - As I mentioned earlier, I'll be creating a separate virtual environment for my dlib projects (I use the conda environment)
-$ conda create -n env_dlib python=3.7
-$ conda activate env_dlib
+  
+  $ conda create -n env_dlib python=3.7
+  
+  $ conda activate env_dlib
 
 - Installing necessary libraries inside the environment
-$ pip install opencv-contrib-python
-$ pip install numpy
-$ pip install scipy
-$ pip install scikit-image
+  
+  $ pip install opencv-contrib-python
+  
+  $ pip install numpy
+  
+  $ pip install scipy
+  
+  $ pip install scikit-image
 
-$ pip install dlib
+  $ pip install dlib
 
 - Test your dlib installation
+
 $ python3
 >>> import dlib
 >>>
