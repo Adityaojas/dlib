@@ -11,4 +11,5 @@ $ conda activate env_dlib
 - Feature detection in dlib is trained on the I-BUG 300 W dataset (https://ibug.doc.ic.ac.uk/resources/facial-point-annotations/). It returns 68 points specifying the x, y coordinates of the features. (other models such as the 194 point model trained on the HELEN Dataset exist, but we'll be using dlib's implementation)
 - I've included 2 helper functions in the code (Thanks to the PyImageSearch Blogs) to convert the dlib returned objects to OpenCV compatible numpy arrays.
 
-
+`landmarks.py` uses the image variable to extract the features
+`video_landmarks.py` takes the feed from the webcam and extracts features in real time, and also writes the output to the memory.
